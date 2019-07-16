@@ -10,7 +10,6 @@ class DataTestCsv extends TestCase
      */
     public function testAdd($a, $b, $expected)
     {
-        logs($a, $b, $expected);
         $this->assertEquals($expected, $a + $b);
     }
 

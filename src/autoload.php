@@ -2,6 +2,8 @@
 // ini_set('display_errors', 'off');
 error_reporting(E_ERROR | E_PARSE); // E_WARNING
 
+ini_set('memory_limit', 256);
+
 // Define
 define('DIR_ROOT', __DIR__ . '/');
 define('DIR_LOG', DIR_ROOT . '../logs/');
